@@ -156,7 +156,7 @@ Next up is the byte `x01`, which is the easiest number to translate.  It's 1 in 
 
 We can see that the MSB is set to zero, meaning that this is the last byte that we need to parse our number.
 
-If we take the last seven bits of each of these bytes, we get `01100001` and `00000001`.
+If we take the last seven bits of each of these bytes, we get `0110000` and `0000001`.
 
 The one tricky thing we have to do is reassemble these bytes in *reverse* order, but then we'll be done!
 
